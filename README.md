@@ -1,21 +1,106 @@
-<<<<<<< HEAD
-# React + Vite
+# 🌤️ Weather App
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A responsive Weather Application built with **React.js** and **Vite** that fetches real-time weather information using the **OpenWeather API**.
 
-Currently, two official plugins are available:
+Users can search any city to view the current weather along with additional details such as temperature, humidity, wind speed, and hourly forecast. The interface also changes dynamically according to weather conditions to provide a modern user experience.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 🔍 Search weather by city
+- 🌡️ Real-time temperature
+- 💧 Humidity
+- 💨 Wind speed
+- ☁️ Weather condition icons
+- 🕒 Hourly forecast
+- 🎨 Dynamic weather backgrounds
+- ⚡ Loading animation
+- 📱 Responsive design
+- ❌ Invalid city error handling
 
-## Expanding the Oxlint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
-=======
-# Weather_App
-A responsive weather application built with React.js and OpenWeather API that provides real-time weather updates, temperature, humidity, wind speed, and hourly forecast with dynamic UI based on weather conditions.
->>>>>>> f85415a881fab77ab699896118404cf05936f542
+## 🛠️ Built With
+
+- React.js
+- Vite
+- JavaScript (ES6)
+- CSS3
+- OpenWeather API
+
+---
+
+## 📂 Project Structure
+
+```
+src/
+│
+├── components/
+│   ├── SearchBar.jsx
+│   ├── CurrentWeather.jsx
+│   ├── WeatherCards.jsx
+│   ├── HourlyForecast.jsx
+│   └── Loading.jsx
+│
+├── services/
+│   ├── weatherApi.js
+│   └── forecastApi.js
+│
+├── App.jsx
+└── App.css
+```
+
+---
+
+## ⚙️ Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/Nadiayousaf/Weather_App.git
+```
+
+Go to the project folder
+
+```bash
+cd Weather_App
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Run the development server
+
+```bash
+npm run dev
+```
+
+---
+
+## 🔑 API Configuration
+
+Create a `.env` file in the project root.
+
+```env
+VITE_OPENWEATHER_API_KEY=YOUR_API_KEY
+```
+
+Get your free API key from:
+https://openweathermap.org/api
+
+---
+
+## 👩‍💻 Author
+
+**Nadia Yousaf**
+
+GitHub:
+https://github.com/Nadiayousaf
+
+---
+
+⭐ If you like this project, don't forget to star the repository!
