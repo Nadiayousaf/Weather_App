@@ -78,6 +78,9 @@ Run the development server
 ```bash
 npm run dev
 ```
+## Preview: 
+<img width="1920" height="883" alt="WeatherApp" src="https://github.com/user-attachments/assets/d3c851a8-77e7-4e00-accc-76d90b085cd2" />
+
 
 ---
 
