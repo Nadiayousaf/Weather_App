@@ -1,0 +1,33 @@
+.forecast-container {
+
+
+  width:100%;
+
+
+  display:flex;
+
+
+  justify-content:center;
+
+
+  gap:18px;
+
+
+  overflow-x:auto;
+
+
+  padding:15px;
+
+
+  margin-top:0px;
+
+
+}
+
+
+
+.forecast-container::-webkit-scrollbar {
+
+  display:none;
+
+}

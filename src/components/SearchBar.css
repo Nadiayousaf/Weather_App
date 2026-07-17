@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* Search Container */
+.Search-Container {
+
+  width:100%;
+
+  display:flex;
+  justify-content:center;
+  align-items:center;
+
+  gap:12px;
+
+  margin-top:10px;
+
+}
+
+
+/* Form */
+.weather-form {
+
+  display:flex;
+
+  align-items:center;
+
+  gap:15px;
+
+
+  background:rgba(255,255,255,0.18);
+
+  backdrop-filter:blur(15px);
+
+  border:1px solid rgba(255,255,255,0.25);
+
+
+  padding:8px 15px;
+
+  border-radius:14px;
+
+}
+
+
+/* Search Icon */
+.weather-form svg {
+
+  color:white;
+
+  font-size:22px;
+
+}
+
+
+/* Input */
+.weather-form input {
+
+  width:230px;
+
+  padding:8px;
+
+
+  border:none;
+
+  outline:none;
+
+
+  background:transparent;
+
+
+  color:white;
+
+  font-size:16px;
+
+}
+
+
+.weather-form input::placeholder {
+
+  color:white;
+
+}
+
+
+/* Common Button */
+.weather-form button {
+
+  border:none;
+
+  cursor:pointer;
+
+  transition:0.3s ease;
+
+}
+
+
+/* Search Button */
+.weather-form button[type="submit"] {
+
+
+  width:75px;
+
+  height:35px;
+
+
+  background:#ffb703;
+
+  color:#111;
+
+
+  border-radius:14px;
+
+
+  font-size:15px;
+
+  font-weight:600;
+
+}
+
+
+.weather-form button[type="submit"]:hover {
+
+  transform:scale(1.05);
+
+}
+
+
+
+/* Refresh Button */
+
+.refresh-btn {
+
+
+  width:45px;
+
+  height:45px;
+
+
+  background:rgba(255,255,255,0.9);
+
+
+  color:black;
+
+
+  border:none;
+
+  border-radius:15px;
+
+
+  display:flex;
+
+  justify-content:center;
+
+  align-items:center;
+
+
+  cursor:pointer;
+
+
+  transition:0.3s ease;
+
+
+}
+
+
+
+.refresh-btn:hover {
+
+  background:white;
+
+  transform:rotate(90deg);
+
+}
+
+
+
+.refresh-btn svg {
+
+  font-size:26px;
+
+}
